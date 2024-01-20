@@ -97,7 +97,7 @@ public class AnimalShelterTest {
     @Test
     void testTreatAllAnimal() {
         animalShelter.treatAllAnimal();
-        // Проверьте, что все животные теперь чисты
+        // Check that all animals are now clean
         List<Animal> animals = animalShelter.getAnimals();
         assertFalse(animals.stream().allMatch(Animal::IsClean));
     }
