@@ -20,7 +20,7 @@ public class AnimalShelterTest {
     @BeforeEach
     void setUp() {
         animalShelter = new AnimalShelter();
-        // Добавьте несколько животных для тестирования
+        // Add some animals for testing
 
         // animalShelter.addAnimal(new Monkey("Monkey1", 5, false));
         animalShelter.addAnimal(new Monkey(false ,5, "Monkey1", 1, false));
@@ -32,12 +32,14 @@ public class AnimalShelterTest {
     void testPrintAnimals() {
         animalShelter.printAnimals();
         // В этом тесте нужно вручную проверить вывод на консоль
+        // This test requires you to manually check the console output
     }
 
     @Test
     void testSortAnimals() {
         animalShelter.sortAnimals();
         // В этом тесте нужно вручную проверить вывод на консоль
+        // This test requires you to manually check the console output
     }
 
     @Test
